@@ -1,0 +1,20 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "A messaging app where users can communicate bidirectional and message can be sent from one user to another user in such a way that both belong to the same group.",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server",
+    "dev":"nodemon server"
+  },
+  "author": "Aryan Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
